@@ -5,8 +5,6 @@ body {
     background-color: #f4f4f4;
 }
 
-
-
 header {
     background-color: #333;
     color: white;
@@ -31,7 +29,6 @@ nav a:hover {
     border-radius: 5px;
 }
 
-
 h2 {
     text-align: center;
 }
@@ -42,7 +39,6 @@ p {
     line-height: 1.6;
 }
 
-
 img {
     width: 100%;
     max-width: 250px;
@@ -52,4 +48,46 @@ img {
     border-radius: 5px;
 }
 
+.home {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    padding: 20px;
+}
 
+.products {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.product {
+    background-color: white;
+    border: 1px solid #ccc;
+    text-align: center;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+button {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 10px 18px;
+    margin: 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darkblue;
+}
+
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
